@@ -1,0 +1,92 @@
+2010-02-05  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* Variables.as: asdoc: improve variables table
+
+	* UserSett.as: add const WALL (thanks to Makuper)
+
+2010-02-04  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* Wall.as (savePost): fix api method name (thanks to Makuper)
+
+2010-01-28  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* Photos.as (get): fix api method name (thanks to Narkir)
+
+2010-01-07  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* Misc.as: Misc.execute(...)->APIVK.execute(...)
+
+2010-01-01  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* Misc.as: add Misc.execute
+
+2009-12-28  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* Language.as: init version
+
+	* Wall.as: init version
+
+	* SMS.as: init version
+
+	* Pages.as: init version
+
+	* Offers.as: init version
+
+	* Misc.as: update getAds
+
+2009-12-27  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* Ques.as: init version
+
+	* Photos.as: init version
+
+2009-12-22  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* Audio.as: init version
+
+2009-12-20  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* *.as: APIVK.req() -> APIVK.req($method$);
+
+2009-12-18  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* Variables.as: fix: исправлено добавление параметра user_id
+
+2009-12-16  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* User.as: init version
+
+	* UserSett.as: init version
+
+	* UserNameCase.as: init version
+
+	* UserField.as: init version
+
+	* Geo.as: init version
+
+	* Messages.as: init version
+
+	* Misc.as: добавлен метод setNameInMenu
+
+2009-12-13  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* Misc.as: init version
+
+2009-12-11  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* Variables.as: \<addVar->addPar
+
+	* HighScores.as: \<addVar->addPar
+
+	* Variables.as: init version
+
+	* HighScores.as: Fix: syntax error
+
+2009-12-09  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* HighScores.as: init version
+
+ Copyright (c) 2009-2010 The apivk.googlecode.com project Authors.
+ Copying and distribution of this file, with or without modification, are
+ permitted provided the copyright notice and this notice are preserved.
+

@@ -1,0 +1,72 @@
+2010-02-07  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* APIVK.as: undo 'fix Security issue'
+
+2010-01-28  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* APIVK.as: fix Security issue
+
+2010-01-07  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* APIVK.as: Misc.execute(...)->APIVK.execute(...)
+
+2010-01-03  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* VKQueue.as (onReceive): убран trace
+
+2009-12-22  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* VKQueue.as: fix скобки в if-else
+
+	* APIVK.as: as3crypto заменен на utils.MD5
+
+	* VKQueue.as: com.vk.api.utils.VKQueue -> com.vk.api.VKQueue
+
+	* ChangeLog: merge ChangeLogs (this and utils/ChangeLog)
+
+	* VKQueue.as: 'if (r.onError)' -> 'if (Boolean(r.onError))' (чтобы убрать warnings компилятора
+
+2009-12-21  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* VKQueue.as: параметры onError, onSuccess не обязательны
+
+2009-12-20  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* VKQueue.as: com.googlecode.apivk.util.VKQueue -> com.api.vk.utils.VKQueue
+	изменена стратегия очереди и отправки запроса
+
+2009-12-20  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* APIVK.as: APIVK.req() -> APIVK.req($method$);
+	удален параметр APIVK.method
+	удален параметр APIVK.format
+	в APIVK.init() добавлен параметр format
+
+2009-12-16  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* VKQueue.as: init version
+
+2009-12-16  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* APIVK.as: удален метод addParSafe
+	добавлен метод addParArray
+	Fix: slice(0) -> splice(0)
+
+2009-12-11  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* APIVK.as: Fix: import
+	Fix: api_url
+	Fix: define void return value addVarSafe(...)
+	Fix: расчёт сигнатуры был _до_ добавления параметров format и test_mode
+	Fix: static keyword for getSig(...)
+	Fix: XML->APIVK.XML
+	\<addVar->addPar
+
+2009-12-09  Ivan Elizaryev  <ivann.exe@gmail.com>
+
+	* lib: mkdir com/vk/api/lib
+
+
+ Copyright (c) 2009-2010 The apivk.googlecode.com project Authors.
+ Copying and distribution of this file, with or without modification, are
+ permitted provided the copyright notice and this notice are preserved.
